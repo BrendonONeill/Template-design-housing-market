@@ -1,0 +1,279 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img
+{
+    max-width: 100%;
+    display: block;
+}
+
+nav
+{
+    width: 100%;
+    height: 7vh;
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+    position: fixed;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav ul li
+{
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-right: 1px solid white;
+}
+
+.hero
+{
+    width: 100%;
+    min-height: 100vh;
+    
+    background: url('../hero.jpg');
+    background-color: rgba(0,0,0,.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.test
+{
+    font-size: 12rem;
+    
+}
+
+[data-colour="blue"]
+{
+    color: #0CBFF7;
+}
+[data-bg-colour="blue"]
+{
+    background-color: #440FD6;
+    position: relative;
+    top: 100px;
+}
+[data-bg-colour="white"]
+{
+    background-color: white;
+}
+[data-colour="white"]
+{
+    color: white;
+}
+
+[data-colour-font="blue"]
+{
+    color: #440FD6;
+}
+
+.hero h2
+{
+    font-size: 3rem;
+    font-style: italic;
+    border-bottom: 3px double white;
+}
+
+.hero-button
+{
+    padding: 2rem 4rem;
+    font-size: 2.5rem;
+    border-radius: 10px;
+    margin-top: 8rem;
+    background-color: #0CBFF7;
+    color: white;
+    box-shadow: 10px 10px 50px 10px black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.description
+{
+    width: 100%;
+    height: 70vh;
+    background-color: #0B5FD4;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.description h3
+{
+    width: 60%;
+    font-size: 2.5rem;
+    border-bottom: 5px solid white;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.des-container
+{
+    width: 80%;
+    height: 90%;
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.des-text
+{
+    max-width: 40%;
+    height: auto;
+    padding: 3rem;
+}
+
+.des-image
+{
+    max-width: 40%;
+    height: auto;
+}
+
+.des-image img
+{
+    width: 80%;
+    height: 80%;
+}
+
+.des-container p
+{
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+
+.offer-selection
+{
+    background-color: #0B5FD4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: auto;
+}
+
+.offers
+{
+    height: 40vh;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 3rem;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.459);
+}
+
+.offers h3
+{
+    font-size: 2.5rem;
+    
+}
+
+.offers img
+{
+    width: 10%;
+    height: auto;
+}
+
+.offers-text
+{
+    width: 60%;
+    height: 40%;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.img-scroll
+{
+    margin-top: 8rem;
+    width: 100%;
+    height: 40vh;
+ background-image: url('/pexels-allyson-salness-8288962.jpg');
+ background-color: rgba(0,0,0,.6);
+ background-blend-mode: multiply;
+ background-size: cover;
+ background-attachment: fixed;
+  background-position: center;
+}
+
+footer
+{
+    width: 100%;
+    height: 10vh;
+    background-color: #0CBFF7;
+}
+
+.selection
+{
+    margin-block: 12rem;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-basis: auto;
+}
+
+.select
+{
+    border: 1px solid black;
+    height: 100%;
+    padding: 2rem;
+    width: 30%;
+    
+    
+}
+
+.house
+{
+    background-image: url('/house.jpg');
+    background-color: #000000a9;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    border-left: 10px solid white;
+}
+
+.villa
+{
+    background-image: url('/villa.jpg');
+    background-color: #000000a9;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    border-left: 10px solid white;
+}
+
+.apartment
+{
+    background-image: url('/apartment.jpg');
+    background-color: #000000a9;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    border-left: 10px solid white;
+}
+
+.select h3
+{
+    padding: 1rem;
+    font-size: 3rem;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
