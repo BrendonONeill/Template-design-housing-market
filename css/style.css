@@ -1,0 +1,338 @@
+:root
+{
+    --light-blue: #0CBFF7;
+    --blue: #008CE0;
+    --dark-blue: #007BFC;
+    --white: #fff;
+    --cta: #F74719;
+    --cta2: #F79D00;
+    --white-grey: #F2F2F6;
+
+}
+
+img
+{
+    width: 100%;
+}
+
+.babyblue
+{
+    color: var(--light-blue);
+}
+
+
+header
+{
+    color: var(--white);
+    background-image: url("../hero.jpg");
+    background-color: rgba(0,0,0,.6);
+    background-blend-mode: multiply;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin: auto;
+    z-index: 10;
+
+}
+
+.nav-bg
+{
+    background-color: rgba(0,0,0,.6);
+    transition: all 0.3s linear;
+}
+
+.logo
+{
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul
+{
+    display: flex;
+    padding: 1rem;
+    list-style-type: none;
+    flex-basis: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li
+{
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+.hero
+{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-30%);
+    text-align: center;
+}
+
+.hero-main
+{
+    font-size: 10rem;
+    font-weight: bold;
+}
+
+.hero-sub
+{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 2rem;
+}
+
+
+.cta-button
+{
+    background-color: var(--cta);
+    color: var(--white);
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+}
+
+.cta-button-li
+{
+    background-color: var(--cta);
+    color: var(--white);
+    border-radius: 5px;
+}
+
+.description
+{
+    color: white;
+    padding: 1rem;
+}
+
+.description-bg
+{
+    padding: 10rem 3rem;
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+}
+
+.description-text
+{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-flow: column;
+}
+
+.description-img img
+{
+    border-radius: 5px;
+}
+
+.cards-bg
+{
+    padding: 10rem 3rem;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.cards-bg h2
+{
+    padding-bottom: 4rem;
+    font-weight: bold;
+    font-size: 3rem;
+    color: var(--dark-blue);
+}
+
+
+.card-div
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.card
+{
+    max-width: 350px;
+    padding: 2rem;
+   
+}
+
+.card h3
+{
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.card-header
+{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.card-img-top
+{
+    max-width: 8rem;
+    max-height: 8rem;
+    padding-block: 2rem;
+}
+
+.c-1
+{
+    background-color: var(--white-grey);
+}
+
+.c-2
+{
+    background-color: var(--dark-blue);
+    color: var(--white);
+    position: absolute;
+    bottom: -20px;
+}
+
+.c-3
+{
+    background-color: var(--white-grey);
+}
+
+.buildings
+{
+    background-color: var(--white);
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+}
+
+.buildings-bg
+{
+    padding: 10rem 3rem;
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+}
+
+.building-text
+{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-flow: column;
+    padding: 2rem;
+}
+
+.building-img
+{
+    max-height: 580px;
+    padding: 2rem;
+    background-color: var(--white);
+}
+
+.building-img img
+{
+    border-radius: 5px;
+}
+
+.img-scroll
+{
+    width: 100%;
+    height: 40vh;
+ background-image: url('/pexels-allyson-salness-8288962.jpg');
+ background-color: rgba(0,0,0,.6);
+ background-blend-mode: multiply;
+ background-size: cover;
+ background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+
+.news-letter
+{
+    background-color: white;
+    width: 500px;
+    height: 150px;
+    padding: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.form-bg
+{
+    padding: 10rem;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+form
+{
+    background-color: var(--white-grey);
+    padding: 3rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.form h2
+{
+    text-align: center;
+    padding-bottom: 4rem;
+    font-weight: bold;
+    font-size: 3rem;
+    color: var(--dark-blue);
+}
+
+.footer-bg
+{
+    padding: 10rem;
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+}
+
+.footer
+{
+    color: var(--white);
+}
+
+.footer-list ul
+{
+    padding: 1rem;
+    list-style-type: none;
+}
+
+.footer-list ul li
+{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+
+}
+
+.footer-copy
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
