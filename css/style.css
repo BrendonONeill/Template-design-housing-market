@@ -42,7 +42,6 @@ nav
     transform: translate(-50%,0);
     margin: auto;
     z-index: 10;
-
 }
 
 .nav-bg
@@ -73,6 +72,7 @@ nav ul li
 {
     padding: 1rem;
     font-size: 1.4rem;
+    cursor: pointer;
 }
 
 .hero
@@ -115,6 +115,13 @@ nav ul li
     background-color: var(--cta);
     color: var(--white);
     border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button-li:hover
+{
+    background-color: var(--cta2);
+    color: black;
 }
 
 .description
@@ -142,6 +149,17 @@ nav ul li
 .description-img img
 {
     border-radius: 5px;
+}
+
+.description-heading
+{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.description-p
+{
+    font-size: 1.2rem;
 }
 
 .cards-bg
@@ -257,7 +275,7 @@ nav ul li
 {
     width: 100%;
     height: 40vh;
- background-image: url('/pexels-allyson-salness-8288962.jpg');
+ background-image: url('../pexels-allyson-salness-8288962.jpg');
  background-color: rgba(0,0,0,.6);
  background-blend-mode: multiply;
  background-size: cover;
@@ -325,7 +343,8 @@ form
 
 .footer-list ul li
 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
     padding: 0.5rem;
 
 }
@@ -335,4 +354,49 @@ form
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+@media only screen and (max-width: 1439px)
+{
+
+    h1
+    {
+        font-size: 1.5rem;
+    }
+
+    nav ul li
+    {
+        padding-block: 1rem;
+        padding-inline: 1.5rem;
+        font-size: 1.4rem;
+        cursor: pointer;
+    }
+
+    header
+    {
+        background-position: top left;
+    }
+
+
+    .hero-main
+    {
+        font-size: 6rem;
+    }
+
+    .hero-sub
+    {
+        font-size: 1.5rem;
+    }
+
+    .c-2
+    {
+        position: relative;
+        bottom: 0;
+    }
+
+    .card
+    {
+        max-width: 500px;
+    }
 }
